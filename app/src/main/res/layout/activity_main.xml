@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Fule Station"
+       android:textAllCaps="false"
+       android:textSize="20dp"
+       android:id="@+id/fst_id"
+       />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="School"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:id="@+id/sch_id"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:id="@+id/hst_id"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Puc center"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:id="@+id/puc_id"
+        />
+
+
+
+</LinearLayout>
